@@ -1,0 +1,526 @@
+ body {
+     font-family: Roboto;
+     margin: 0;
+ }
+
+ /* header style */
+
+ .header {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     padding: 0 150px;
+     border-bottom: solid gray 1px;
+ }
+
+ .logo a {
+     display: flex;
+     align-items: center;
+     text-decoration: none;
+     color: black;
+ }
+
+ .logo h3 {
+     margin-left: 10px;
+     font-size: 36px;
+     font-weight: bold;
+     line-height: 6px;
+ }
+
+ .navigation ul {
+     display: flex;
+     list-style-type: none;
+     width: 400px;
+     justify-content: space-between;
+ }
+
+ .navigation ul a {
+     text-decoration: none;
+     color: black;
+ }
+
+ /* header style end */
+
+ /* container 1140px width */
+
+ .container {
+     max-width: 1140px;
+     margin: 0 auto;
+ }
+
+ /* motive style */
+
+ .motive {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .motive h1 {
+     margin-top: 100px;
+ }
+
+ .motivepara {
+     font-weight: 300;
+     line-height: 25px;
+     margin-top: 10px;
+ }
+
+ .motiveimg {
+     margin-top: 80px;
+ }
+
+ /* motive style end */
+
+ /* what we do style */
+
+ .whatwedo {
+     font-size: 36px;
+     font-weight: 500;
+     display: flex;
+     justify-content: center;
+     margin-top: 100px;
+ }
+
+ /* what we do style end */
+
+ /* application devlopnent */
+
+ .applicationdevfull {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+ }
+
+ .applicationdev {
+     font-size: 28px;
+     font-weight: 700;
+     margin-top: 60px;
+     margin-bottom: 25px;
+ }
+
+ .applicationdevheading {
+     display: flex;
+     align-items: center;
+     margin-bottom: 35px;
+ }
+
+ .applicationdevtitle {
+     margin-left: 10px;
+     font-size: 12px;
+     font-weight: 600;
+ }
+
+ .applicationdevimg {
+     margin-top: 120px;
+     margin-right: 20px;
+ }
+
+ /* application devlopnent end */
+
+ /* web devlopment */
+
+ .webdevfull {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 90px;
+ }
+
+ .webdevimg {
+     margin-top: 100px;
+ }
+
+ /* web devlopment end */
+
+ /* software devlopement */
+
+ .softwaredevfull {
+     display: flex;
+     align-items: center;
+     justify-content: space-around;
+     margin-top: 90px;
+ }
+
+ /* software devlopement end */
+
+ /* contact page */
+
+ .contact-banner {
+     display: flex;
+     justify-content: center;
+ }
+
+ .contactdev {
+     display: flex;
+     align-items: center;
+     height: 300px;
+     width: 800px;
+     margin-top: 200px;
+     margin-right: 30px;
+     background-color: #E1E1F8;
+     border: 1px white solid;
+     border-radius: 18px;
+ }
+
+ .contactdevimg {
+     margin-left: 30px;
+     margin-top: 60px;
+ }
+
+ .contactusdev {
+     font-size: 36px;
+     color: black;
+     font-weight: 500;
+     margin-top: 45px;
+     margin-left: 100px;
+ }
+
+ /* contact page end */
+
+ .endborder {
+     border-bottom: darkgray 1px solid;
+     margin-top: 100px;
+ }
+
+ /* address and social  */
+
+ .companyaddresssocial {
+     display: flex;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .address {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .office {
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ .companyname {
+     font-size: 20px;
+     font-weight: 700;
+     margin-top: 15px;
+ }
+
+ .localaddress {
+     font-size: 18px;
+     font-weight: 300;
+     margin-top: 10px;
+ }
+
+ /* email and social icon section */
+
+ .sociallinkmain {
+     margin-left: 580px;
+     margin-top: 10px;
+ }
+
+ .sociallink {
+     margin-right: 100px;
+ }
+
+ .sociallink p {
+     font-size: 16px;
+ }
+
+ .sociallink p a {
+     margin-left: 10px;
+     font-size: 16px;
+ }
+
+ .socialicon {
+     display: flex;
+     width: 200px;
+     justify-content: space-evenly;
+ }
+
+ .socialimg {
+     height: 20px;
+     width: 20px;
+ }
+
+ /* address and social end */
+
+ /* HOME PAGE END */
+
+ /* Project Page  */
+
+ .projecttitle {
+     font-size: 32px;
+     margin-top: 130px;
+     font-weight: bold;
+ }
+
+ /* Process page */
+
+ .processtitle {
+     display: flex;
+     align-items: center;
+ }
+
+ .processtitle p {
+     margin-left: 5px;
+     font-size: 20px;
+     margin-top: 20px;
+     font-weight: 500;
+ }
+
+ .designmain {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .designpara {
+     font-size: 16px;
+     font-weight: 500;
+     color: rgb(129, 128, 128);
+     line-height: 20px;
+     letter-spacing: 0.8px;
+ }
+
+ .designimg {
+     margin-top: 50px;
+ }
+
+ .designfirst {
+     margin-left: 30px;
+ }
+
+ .designsecond {
+     margin-right: 30px;
+ }
+
+ .devlopmentmain {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin-top: 180px;
+ }
+
+ .subcontainer {
+     max-width: 980px;
+     margin: 0 auto;
+ }
+
+ .footer {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     margin: 20px 30px;
+ }
+
+ .footersocialimgmain {
+     display: flex;
+     align-items: center;
+     width: 150px;
+     justify-content: space-evenly;
+ }
+
+ .footersocialimg a img {
+     height: 18px;
+     width: 18px;
+ }
+
+ .copyright {
+     font-size: 16px;
+     color: rgb(51, 41, 41);
+ }
+
+ .privacy {
+     display: flex;
+     align-items: center;
+ }
+
+ .privacy a {
+     text-decoration: none;
+ }
+
+ .privacy a p {
+     font-size: 16px;
+     color: rgb(51, 41, 41);
+     margin: 10px;
+ }
+
+ /* front end start */
+
+ .frontendtechnology {
+     margin-top: 90px;
+ }
+
+ .subtitlefrontend {
+     font-size: 20px;
+     font-weight: 500;
+     margin-left: 150px;
+ }
+
+ .frontendtitle {
+     display: flex;
+     align-items: center;
+ }
+
+ .frontendsub {
+     font-size: 14px;
+     font-weight: 400;
+     margin-left: 10px;
+ }
+
+ .frontend {
+     margin-top: 30px;
+     margin-left: 150px;
+     height: 250px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ .frontendmain {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .frontendimg {
+     margin-right: 100px;
+ }
+
+ /* front-end end */
+
+ /* back-end start */
+
+ .backend {
+     margin-top: 150px;
+ }
+
+ .backendframe {
+     display: flex;
+ }
+
+ .backendtitle {
+     font-size: 20px;
+     font-weight: 500;
+     text-align: end;
+     margin-right: 180px;
+     margin-top: 100px;
+ }
+
+ .backendlist {
+     margin-top: 30px;
+     margin-left: 200px;
+     height: 180px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ /* back-end end */
+
+ /* design tool start */
+
+ .designtool {
+     margin-top: 180px;
+ }
+
+ .design {
+     margin-left: 150px;
+     height: 100px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-evenly;
+ }
+
+ /* design tool end */
+
+ .aboutparagraph {
+     font-size: 18px;
+     font-weight: 300;
+     line-height: 24px;
+     color: rgb(51, 41, 41);
+ }
+
+ .aboutsubheading {
+     font-size: 24px;
+     font-weight: 300;
+     font-style: bold;
+     margin-top: 100px;
+ }
+
+ .aboutfocuse {
+     display: flex;
+     margin-left: 80px;
+ }
+
+ .aboutfocuselist {
+     display: flex;
+     flex-direction: column;
+     height: 140px;
+     justify-content: space-between;
+     margin-top: 100px;
+     margin-left: 70px;
+ }
+
+ .abouttitle {
+     display: flex;
+     align-items: center;
+ }
+
+ .aboutsub {
+     font-size: 18px;
+     font-weight: 400;
+     margin-left: 10px;
+ }
+
+ .aboutimg {
+     margin-top: 70px;
+     margin-left: 250px;
+ }
+
+ .ourteam {
+     font-size: 28px;
+     text-align: center;
+     margin-top: 130px;
+ }
+
+ .profileimg img {
+     border-radius: 50%;
+ }
+
+ .profilename {
+     font-size: 26;
+     font-weight: 400;
+     margin-top: 10px;
+     margin-left: 10px;
+ }
+
+ .profilwork {
+     font-size: 26;
+     font-weight: 300;
+ }
+
+ .teammember {
+     display: flex;
+     flex-direction: column;
+ }
+
+ .teamsocial {
+     display: flex;
+     align-items: center;
+     width: 150px;
+     justify-content: space-evenly;
+     margin-top: 10px;
+ }
+
+ .teammemberfirst {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     width: 800px;
+     margin-top: 80px;
+     margin-left: 90px;
+ }
